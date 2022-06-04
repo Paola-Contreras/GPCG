@@ -1,0 +1,22 @@
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top:  -2%;
+    margin-left: 12%;
+}
+
+#Nb{
+    font-family:  "Julius Sans One", sans-serif;
+    color:white;
+    background:transparent;
+    border:none;
+    font-size: 1.18rem;
+
+}
+
+#Nb:hover{
+    border-bottom: 1px solid white;
+}

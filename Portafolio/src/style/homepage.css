@@ -1,0 +1,82 @@
+.main{
+    height: fit-content;
+}
+
+
+.Text{
+    padding-top:50px;
+    margin:auto;
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 50px;
+    padding-left: 40px;
+
+    
+}
+
+
+.Cv{
+    text-decoration: none;
+    color: rgb(3,112,145);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+}
+.Cv:hover{
+    padding-left:40px;
+    transition:all.4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.Text h4  {
+    padding-bottom: 20px;
+}
+.Text p{
+    padding-bottom: 20px;
+}
+
+.pic img {
+    min-height: 40vh;
+    max-height: 67vh;
+    width: auto;
+    display: block;
+    opacity:0.5;
+    z-index: -1;
+    margin-left:-15px;
+    border-radius: 6%;
+}
+
+.pic{
+    position: absolute;
+    height: auto;
+    padding-top:50px;
+    
+}
+.technology{
+    padding-top:50px;
+    margin:auto;
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+
+}
+
+.img_conteiner{
+    display: grid;    
+    grid-template-columns: repeat(4, 1fr);
+    width: 78%;
+    padding: 10px;
+    margin:auto;
+}
+
+.img_conteiner img{
+    width: auto;
+    min-height:0vh;
+    max-height: 30vh;
+    border-radius:50%;
+}
+
+
